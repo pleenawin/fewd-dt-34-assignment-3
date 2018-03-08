@@ -1,8 +1,8 @@
 /*
-Project Name: Blank Template
-Client: Your Client
-Author: Your Name
-Developer @GA in NYC
+Project Name: Relaxr
+Client: Relaxr 
+Author: Paulina N.
+Developer @GA in LA
 */
 
 
@@ -46,12 +46,71 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
+     color: #606161;
+     font-size: 24px;
+     font-weight: 300;
      line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
+     font-family: 'Open Sans', sans-serif;
+     background-color: #f0efef;
+     width: 100%;
+     margin: 0 auto;
 }
 
+a {
+  color: #033048;
+  font-size: 24px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+a.nav {
+  color: #f9e42e;
+}
+
+a.light {
+  font-weight: 300;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+button {
+  font-weight: 800;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  border: 0px;
+  margin: 32px;
+}
+
+section {
+  background-color: #f9e42e;
+  text-align: center;
+  margin-top: 96px;
+}
+
+h1 {
+  font-size: 36px;
+  color: white;
+  font-weight: 800;
+}
+
+h2 {
+  color: #033048;
+  font-size: 40px;
+  font-weight: 600;
+  margin-top: 32px;
+}
+
+h3 {
+  color: #033048;
+  font-size: 32px;
+  font-weight: 800;
+  padding-top: 32px;
+}
+img {
+  margin: 24px 0px 24px 0px;
+}
 
 /******************************************
 /* LAYOUT
@@ -59,22 +118,107 @@ body {
 
 /* Center the container */
 #container {
-  width: 960px;
   margin: auto;
 }
 
 header {
+  background-color: #033048;
+  padding: 32px 0px 32px 0px;
+}
 
+nav {
+  max-width: 960px;
+  margin: auto;
+  display: flex;
+  color: #f9e42e;
+  font-weight: 600;
+  align-items: center;
+  margin: auto;
 }
 
 footer {
+  font-size: 9px;
+  font-weight: 600;
+  color: white;
+  background-color: #121212;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  text-align: center;
+}
 
+li {
+  color: #033048;
+  font-weight: 300;
+}
+
+.max {
+  max-width: 960px;
+  margin: auto;
+}
+
+.flexrow {
+  display: flex;
+  margin: auto;
+}
+
+.navlogo {
+  display: flex;
+  flex-grow: 1;
+}
+
+.navcol {
+  padding-left: 32px;
+}
+
+.left {
+  max-width: 700px;
+  margin-right: 20px;
+}
+
+.right {
+  max-width: 240px;
+}
+
+.read-more {
+  text-align: right;
+  padding: 24px 0px 24px 0px;
+  border-bottom: 1px solid #033048;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
+.button {
+  font-size: 24px;
+  color: white;
+  background: #033048;
+  padding: 12px 24px 12px 24px;
+}
 
+.dropcap {
+  color: #606161;
+  float: left;
+  font-size: 72px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+}
 
+.about {
+  font-size: 22px;
+  font-weight: 300;
+}
 
+#learn {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.social {
+  margin: 24px 12px 24px 12px;
+}
+
+#yellow {
+  color: #f9e42e;
+}
